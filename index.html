@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Stopwatch </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="head">Developed by Sharun</h1>
+    </nav>
+    <div class="container">
+        <div class="display d-flex flex-column justify-content-center ">
+            <h1>Digital Stop Watch</h1>
+            <div id="time">00:00:00</div>
+            <button id="start" onclick="startStopwatch()"><img src="https://cdn.pixabay.com/photo/2016/05/31/12/00/start-1426743_1280.png" id="startimg" height="50px" width="50px"></button>
+            <button id="stop" onclick="stopStopwatch()"><img src="http://clipart-library.com/new_gallery/106-1069123_stop-button-clip-art-circle.png" id="stopimg" height="50px" width="50px"></button>
+            <button id="lap" onclick="lapTime()"><img src="https://static.vecteezy.com/system/resources/previews/006/375/586/non_2x/lap-word-on-isolated-button-free-photo.jpg" height="50px" width="50px"></button>
+            <button id="reset" onclick="resetStopwatch()"><img src="http://www.quotemaster.org/images/f7/f73544aa2ea99f373915c271be7e851c.jpg" height="50px" width="50px"></button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+    <footer><h1 class="head tail">Built with dedication</h1></footer>
+    <script src="script.js"></script>
+</body>
+</html>
